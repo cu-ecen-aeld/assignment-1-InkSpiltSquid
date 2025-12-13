@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 #searching files for a string
 
-filesdir=/tmp/aeld-data/
+filesdir=/tmp/aesd/assignment1/
 searchstr=AELD_IS_FUN
 
-if [ $# -lt 3 ];
+if [ $# -lt  2 ];
 then
     echo "Missing info"
     exit 1
