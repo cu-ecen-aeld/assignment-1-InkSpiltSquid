@@ -5,7 +5,7 @@
 
 if [ $# -lt  2 ];
 then
-    echo "Missing info"
+    echo "Only 2 arguments allowed"
     exit 1
 fi
 
